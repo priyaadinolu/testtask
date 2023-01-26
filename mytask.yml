@@ -4,4 +4,5 @@
   tasks:
       - name: i want to run linux command
         command: touch myfile1.txt
+                 mv myfile1.txt myfile2.txt
         
