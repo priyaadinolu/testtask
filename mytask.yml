@@ -1,0 +1,6 @@
+--- 
+- hosts: 172.31.30.192
+  become: yes
+  tasks:
+      - name: i want to run linux command
+        command: touch mytask.txt
