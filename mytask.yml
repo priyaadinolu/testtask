@@ -3,5 +3,4 @@
   become: yes
   tasks:
       - name: i want to run linux command
-        command: touch mytask.txt
-                 mv mytask.txt myresult.txt
+        command: mv mytask.txt myresult.txt
