@@ -3,5 +3,5 @@
   become: yes
   tasks:
       - name: i want to run linux command
-        command: cp myfile1.txt myfile3.txt
+        command: mv myfile5.txt myfile6.txt
         
